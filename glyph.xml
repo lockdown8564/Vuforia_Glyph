@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="brown_glyph.Front" size="6.000000 6.000000"/>
+        <ImageTarget name="brown_glyph.Top" size="6.000000 6.000000"/>
+        <ImageTarget name="brown_glyph.Bottom" size="6.000000 6.000000"/>
+        <ImageTarget name="brown_glyph.Left" size="6.000000 6.000000"/>
+        <ImageTarget name="brown_glyph.Right" size="6.000000 6.000000"/>
+        <ImageTarget name="brown_glyph.Back" size="6.000000 6.000000"/>
+        <ImageTarget name="grey_glyph.Front" size="6.000000 6.000000"/>
+        <ImageTarget name="grey_glyph.Top" size="6.000000 6.000000"/>
+        <ImageTarget name="grey_glyph.Bottom" size="6.000000 6.000000"/>
+        <ImageTarget name="grey_glyph.Left" size="6.000000 6.000000"/>
+        <ImageTarget name="grey_glyph.Right" size="6.000000 6.000000"/>
+        <ImageTarget name="grey_glyph.Back" size="6.000000 6.000000"/>
+        <MultiTarget name="brown_glyph">
+            <Part name="brown_glyph.Left" translation="-3.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="brown_glyph.Right" translation="3.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="brown_glyph.Front" translation="0 0 3.0" rotation="AD: 1 0 0 0"/>
+            <Part name="brown_glyph.Back" translation="0 0 -3.0" rotation="AD: 0 1 0 180"/>
+            <Part name="brown_glyph.Top" translation="0 3.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="brown_glyph.Bottom" translation="0 -3.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="grey_glyph">
+            <Part name="grey_glyph.Left" translation="-3.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="grey_glyph.Right" translation="3.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="grey_glyph.Front" translation="0 0 3.0" rotation="AD: 1 0 0 0"/>
+            <Part name="grey_glyph.Back" translation="0 0 -3.0" rotation="AD: 0 1 0 180"/>
+            <Part name="grey_glyph.Top" translation="0 3.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="grey_glyph.Bottom" translation="0 -3.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
